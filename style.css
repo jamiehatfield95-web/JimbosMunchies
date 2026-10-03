@@ -124,4 +124,41 @@ font-size:2.7rem;
 font-size:1rem;
 }
 
+}/* ==========================================
+   Jimbo's Munchies - Menu Styling
+   ========================================== */
+
+.menu-section {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.menu-category {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 16px 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.menu-category h3 {
+  margin-top: 0;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.pricing-tier {
+  font-weight: bold;
+  color: #e65100; /* Warm bakery/munchies theme color */
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+.flavor-list {
+  list-style-type: square;
+  padding-left: 20px;
+  margin: 0;
+  line-height: 1.6;
 }
